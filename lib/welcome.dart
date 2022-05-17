@@ -19,25 +19,25 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
         body: Column(
           children: [
             Container(
-              width: sizeAware.width,
-              height: sizeAware.height,
+              width: 500,
+              height: 500,
               child: Center(
                   child: Image(
                     image: AssetImage('assets/images/Group 8.png'),
                   ),
               ),
             ),
-            // Container(
-            //   color: Colors.amber,
-            //   width: 70,
-            //   height: 30,
-            //   child: MaterialButton(
-            //     onPressed: (){},
-            //       child: Text("Get Start",
-            //       style: TextStyle(color: Colors.black,
-            //       ),),
-            //   ),
-            // )
+            Container(
+              color: Colors.amber,
+              width: 100,
+              height: 50,
+              child: MaterialButton(
+                onPressed: (){},
+                  child: Text("Get Start",
+                  style: TextStyle(color: Colors.black,
+                  ),),
+              ),
+            )
           ],
         ),
     );
