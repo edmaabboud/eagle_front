@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.amber,
         appBarTheme: AppBarTheme(
         titleSpacing: 20.0,
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.white,
         titleTextStyle: TextStyle(
         color: Colors.white,
         fontSize: 20.0,
