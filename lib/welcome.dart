@@ -20,6 +20,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           Container(
             width: 500,
             height: 500,
+
+            
             child: Center(
               child: Image(
                 image: AssetImage('assets/images/Group 8.png'),
