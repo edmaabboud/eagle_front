@@ -240,7 +240,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       }
                       },
                       child: Text(
-                        "Submit",
+                        "okkk",
                         style: TextStyle(
                           color: Colors.black,
                         ),
