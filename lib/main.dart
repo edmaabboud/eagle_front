@@ -1,3 +1,4 @@
+import 'package:eagle/homepage.dart';
 import 'package:eagle/welcome.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
     ),
         ),
         ),
-      home: WelcomeScreen(),
+      home: HomePageScreen(),
     );
   }
 }
