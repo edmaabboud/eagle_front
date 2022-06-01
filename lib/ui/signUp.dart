@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'dart:isolate';
 
 import 'package:flutter/material.dart';
@@ -220,6 +222,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 "Submit",
                 style: TextStyle(
                   color: Colors.black,
+                  fontFamily: 'Uniform',
                 ),
               ),
                         ),
