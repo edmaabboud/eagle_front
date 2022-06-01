@@ -1,3 +1,6 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:eagle/constants/colors.dart';
 import 'package:eagle/ui/signUp.dart';
 import 'package:flutter/material.dart';
 
@@ -64,7 +67,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             ),
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(54),
-                color: Color(0xffffee32),
+                color: yellow1,
                 boxShadow: [
                   BoxShadow(
                     color: Color(0xff565656),

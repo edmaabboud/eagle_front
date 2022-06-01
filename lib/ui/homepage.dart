@@ -1,4 +1,5 @@
-import 'package:eagle/welcome.dart';
+
+import 'package:eagle/ui/welcome.dart';
 import 'package:flutter/material.dart';
 
 class HomePageScreen extends StatefulWidget {

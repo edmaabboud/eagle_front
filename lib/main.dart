@@ -1,5 +1,5 @@
-import 'package:eagle/homepage.dart';
-import 'package:eagle/welcome.dart';
+import 'package:eagle/ui/homepage.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
