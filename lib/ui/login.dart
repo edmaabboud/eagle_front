@@ -32,14 +32,14 @@ class _loginscreenState extends State<loginscreen> {
           ),
           body: Column(
             children: [
-              Swiper(
-                itemCount: cards.length,
-                itemBuilder: (context, index) {
-                  return Bcard(photoname: cards[index].photoname, description: cards[index].description,);
-                },
-                control: SwiperControl(),
-                pagination: SwiperPagination(),
-              ),
+              // Swiper(
+              //   itemCount: cards.length,
+              //   itemBuilder: (context, index) {
+              //     return Bcard(photoname: cards[index].photoname, description: cards[index].description,);
+              //   },
+              //   control: SwiperControl(),
+              //   pagination: SwiperPagination(),
+              // ),
               Container(
                 width: sizeAware.width * 764 / 1080,
                 height: sizeAware.height * 107 / 1920,
@@ -63,7 +63,7 @@ class _loginscreenState extends State<loginscreen> {
                   decoration: InputDecoration(
                     hintText: 'email',
                     hintStyle: TextStyle(
-                      fontFamily: 'Uniform',
+                      fontFamily: 'Cremona',
                     ),
                     prefixIcon: Icon(
                       Icons.email,

@@ -1,4 +1,6 @@
 import 'package:eagle/ui/homepage.dart';
+import 'package:eagle/ui/login.dart';
+import 'package:eagle/ui/welcome.dart';
 
 import 'package:flutter/material.dart';
 
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
     ),
         ),
         ),
-      home: HomePageScreen(),
+      home: WelcomeScreen(),
     );
   }
 }
