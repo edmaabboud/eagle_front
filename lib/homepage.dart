@@ -1,8 +1,8 @@
-import 'package:eagle/welcome.dart';
 import 'package:flutter/material.dart';
 
 import 'notification.dart';
 import 'profile.dart';
+import 'ui/welcome.dart';
 
 class HomePageScreen extends StatefulWidget {
   @override

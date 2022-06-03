@@ -1,4 +1,4 @@
-import 'package:eagle/signUp.dart';
+import 'package:eagle/ui/signUp.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -37,6 +37,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontFamily: 'Uniform',
               ),
             ),
           ),
@@ -57,6 +58,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 "Get Started",
                 style: TextStyle(
                   color: Colors.black,
+                  fontFamily: 'Uniform',
                 ),
               ),
             ),
