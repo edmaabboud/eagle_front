@@ -1,5 +1,5 @@
 import 'dart:isolate';
-import 'package:eagle/homepage.dart';
+import 'package:eagle/ui/homepage.dart';
 import 'package:flutter/material.dart';
 
 class SignUpScreen extends StatefulWidget {
@@ -85,7 +85,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       return null;
                     },
                     decoration: InputDecoration(
-                      labelText: 'email',
+                      hintText: 'email',
+                      hintStyle: TextStyle(
+                        fontFamily: 'Uniform',
+                      ),
                       prefixIcon: Icon(
                         Icons.email,
                       ),
@@ -119,7 +122,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       return null;
                     },
                     decoration: InputDecoration(
-                      labelText: 'username',
+                      hintText: 'username',
+                      hintStyle: TextStyle(
+                        fontFamily: 'Uniform',
+                      ),
                       prefixIcon: Icon(
                         Icons.person,
                       ),
@@ -154,7 +160,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       return null;
                     },
                     decoration: InputDecoration(
-                      labelText: 'Password',
+                      hintText: 'Password',
+                      hintStyle: TextStyle(
+                        fontFamily: 'Uniform',
+                      ),
                       prefixIcon: const Icon(
                         Icons.lock,
                       ),
@@ -199,7 +208,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       return null;
                     },
                     decoration: InputDecoration(
-                      labelText: 'confirm Password',
+                      hintText: 'confirm Password',
+                      hintStyle: TextStyle(
+                        fontFamily: 'Uniform',
+                      ),
                       prefixIcon: const Icon(
                         Icons.lock,
                       ),

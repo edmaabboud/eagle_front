@@ -1,5 +1,7 @@
-import 'package:eagle/homelayout.dart';
-import 'package:eagle/homepage.dart';
+import 'package:eagle/ui/homepage.dart';
+import 'package:eagle/ui/login.dart';
+import 'package:eagle/ui/welcome.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
     ),
         ),
         ),
-      home: HomeLayout(),
+      home: WelcomeScreen(),
     );
   }
 }
