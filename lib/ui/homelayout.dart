@@ -1,4 +1,4 @@
-import 'package:eagle/addExpo.dart';
+import 'package:eagle/ui/addExpo.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
@@ -61,7 +61,9 @@ class _HomeLayoutState extends State<HomeLayout> {
         ),
         backgroundColor: Colors.deepPurple,
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       bottomNavigationBar: BottomNavigationBar(
+        //shape: CircularNotchedRectangle(),
         type: BottomNavigationBarType.fixed,
         backgroundColor: Color(0xffffee32),
         currentIndex: currentIndex,
@@ -86,10 +88,9 @@ class _HomeLayoutState extends State<HomeLayout> {
           ),
         ],
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.miniEndDocked,
+
     );
   }
-
   Future<String> getdata() async {
     return 'Great a new Product';
   }

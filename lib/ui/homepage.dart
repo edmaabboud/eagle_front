@@ -1,5 +1,5 @@
-import 'package:eagle/notification.dart';
-import 'package:eagle/profile.dart';
+import 'package:eagle/ui/notification.dart';
+import 'package:eagle/ui/profile.dart';
 import 'package:eagle/ui/welcome.dart';
 import 'package:flutter/material.dart';
 

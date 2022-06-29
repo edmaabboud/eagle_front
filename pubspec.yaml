@@ -51,5 +51,7 @@ flutter:
     - family: Uniform
       fonts:
         - asset: assets/fonts/Uniform.ttf
+    - family: Uniform Black
+      fonts:
         - asset: assets/fonts/Uniform Black.ttf
 
